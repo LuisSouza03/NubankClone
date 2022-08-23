@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../utils/colors_standard.dart';
+import '../../utils/colors_standard.dart';
+import './models/header.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,10 +15,17 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor,
+      //backgroundColor: backgroundColor,
       appBar: _appBar(),
       body: SingleChildScrollView(
-        child: Container(),
+        child: Container(
+          color: Colors.white,
+          child: Column(
+            children: const [
+              Header(),
+            ],
+          ),
+        ),
       ),
     );
   }
