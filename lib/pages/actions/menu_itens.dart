@@ -19,28 +19,66 @@ class _MenuItensState extends State<MenuItens> {
         child: Wrap(
           direction: Axis.horizontal,
           children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 7),
-              child: Column(
-                children: [
-                  Container(
-                    margin: const EdgeInsets.only(bottom: 10),
-                    padding: const EdgeInsets.all(20),
-                    decoration: BoxDecoration(
-                      color: greyColor,
-                      borderRadius: BorderRadius.circular(48),
-                    ),
-                    child: const Icon(MdiIcons.creditCard),
-                  ),
-                  const Text(
-                    'Transferir',
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  )
-                ],
-              ),
-            )
+            _itemMenu(
+              icon: MdiIcons.clover,
+              name: 'Área Pix',
+              isFirst: true,
+            ),
+            _itemMenu(
+              icon: MdiIcons.barcode,
+              name: 'Pagar',
+            ),
+            _itemMenu(
+              icon: MdiIcons.cash,
+              name: 'Transferir',
+            ),
+            _itemMenu(
+              icon: MdiIcons.cash,
+              name: 'Depositar',
+            ),
+            _itemMenu(
+              icon: MdiIcons.creditCard,
+              name: 'Recarga',
+            ),
+            _itemMenu(
+              icon: MdiIcons.heartOutline,
+              name: 'Doação',
+            ),
+            _itemMenu(
+              icon: MdiIcons.earth,
+              name: 'Transferir \n Internac.',
+            ),
+            _itemMenu(
+              icon: MdiIcons.signal,
+              name: 'Investir',
+            ),
           ],
         ),
+      ),
+    );
+  }
+
+  _itemMenu({required IconData icon, required String name, bool? isFirst}) {
+    return Container(
+      padding: (isFirst ?? false)
+          ? const EdgeInsets.only(right: 7, left: 20)
+          : const EdgeInsets.symmetric(horizontal: 7),
+      child: Column(
+        children: [
+          Container(
+            margin: const EdgeInsets.only(bottom: 10),
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: greyColor,
+              borderRadius: BorderRadius.circular(48),
+            ),
+            child: Icon(icon),
+          ),
+          Text(
+            name,
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          )
+        ],
       ),
     );
   }
