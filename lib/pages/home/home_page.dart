@@ -5,6 +5,7 @@ import 'package:nubank_clone/pages/home/actions/menu_itens_page.dart';
 import 'package:nubank_clone/pages/home/creditsCard/my_credits_card_page.dart';
 
 import './models/header.dart';
+import 'notification/notification_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -28,6 +29,7 @@ class _HomePageState extends State<HomePage> {
               Account(),
               MenuItens(),
               MyCreditCards(),
+              NotificationsPage(),
             ],
           ),
         ),
