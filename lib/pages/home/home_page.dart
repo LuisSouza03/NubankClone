@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:nubank_clone/pages/actions/menu_itens.dart';
+import 'package:nubank_clone/pages/creditsCard/my_credits_card.dart';
 
 import '../../utils/colors_standard.dart';
 import '../account/account.dart';
@@ -27,6 +28,7 @@ class _HomePageState extends State<HomePage> {
               Header(),
               Account(),
               MenuItens(),
+              MyCreditCards(),
             ],
           ),
         ),
