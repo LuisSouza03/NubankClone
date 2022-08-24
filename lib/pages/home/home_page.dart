@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:nubank_clone/pages/actions/menu_itens.dart';
-import 'package:nubank_clone/pages/creditsCard/my_credits_card.dart';
+import 'package:nubank_clone/pages/home/account/account_page.dart';
+import 'package:nubank_clone/pages/home/actions/menu_itens_page.dart';
+import 'package:nubank_clone/pages/home/creditsCard/my_credits_card_page.dart';
 
-import '../../utils/colors_standard.dart';
-import '../account/account.dart';
 import './models/header.dart';
 
 class HomePage extends StatefulWidget {
