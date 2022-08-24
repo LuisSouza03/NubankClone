@@ -32,10 +32,7 @@ class _AccountState extends State<Account> {
       children: const [
         Text(
           'Conta',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         Icon(MdiIcons.chevronRight)
       ],
@@ -48,7 +45,7 @@ class _AccountState extends State<Account> {
         builder: (controller) {
           return Text(
             controller.balance,
-            style: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           );
         });
   }

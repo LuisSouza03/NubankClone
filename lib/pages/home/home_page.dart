@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:nubank_clone/pages/actions/menu_itens.dart';
 
 import '../../utils/colors_standard.dart';
 import '../account/account.dart';
@@ -25,6 +26,7 @@ class _HomePageState extends State<HomePage> {
             children: const [
               Header(),
               Account(),
+              MenuItens(),
             ],
           ),
         ),
