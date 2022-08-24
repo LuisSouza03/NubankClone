@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
 class ControllerHomePage extends GetxController {
-  String saldo = 'R\$ 873.244,00';
+  String balance = 'R\$ 873.244,00';
   bool eyesValue = true;
 
   void showValue() {

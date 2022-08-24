@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../utils/colors_standard.dart';
+import '../account/account.dart';
 import './models/header.dart';
 
 class HomePage extends StatefulWidget {
@@ -23,6 +24,7 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             children: const [
               Header(),
+              Account(),
             ],
           ),
         ),
