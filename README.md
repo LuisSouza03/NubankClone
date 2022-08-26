@@ -1,16 +1,21 @@
-# nubank_clone
+# 💳 Nubank [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/Solido/awesome-flutter"><img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
 
-A new Flutter project.
+<a href="https://blog.nubank.com.br/"> <img alt="App Nunbank" src="https://blog.nubank.com.br/wp-content/uploads/2021/07/asset-home-page-1.gif?w=818" ></a>
 
-## Getting Started
+# ❔ About this project
 
-This project is a starting point for a Flutter application.
+This project is a simplified front end clone of Nubank. It was created with Flutter. Feel free to contribute!
 
-A few resources to get you started if this is your first Flutter project:
+<br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# ✨ Requirements
+* Any Operating System (ie. MacOS X, Linux, Windows)
+* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+* A little knowledge of Dart and Flutter
+* A brain to think 🤓🤓
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br>
+
+# 📝 Licence
+
+These vignettes are released under the MIT license. You can use the code for any purpose, including commercial projects. [MIT](./LICENSE).
