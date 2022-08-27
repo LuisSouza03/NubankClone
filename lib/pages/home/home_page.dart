@@ -4,6 +4,7 @@ import 'package:nubank_clone/pages/home/account/account_page.dart';
 import 'package:nubank_clone/pages/home/actions/menu_itens_page.dart';
 import 'package:nubank_clone/pages/home/creditsCard/credit_card.dart';
 import 'package:nubank_clone/pages/home/creditsCard/my_credits_card_page.dart';
+import 'package:nubank_clone/pages/home/followAlso/follow_also.dart';
 import 'package:nubank_clone/pages/home/investments/investments.dart';
 
 import './models/header.dart';
@@ -38,6 +39,8 @@ class _HomePageState extends State<HomePage> {
               CreditCard(),
               Divider(thickness: 1.6),
               Investments(),
+              Divider(thickness: 1.6),
+              FollowAlso(),
             ],
           ),
         ),
