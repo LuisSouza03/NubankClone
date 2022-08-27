@@ -13,7 +13,7 @@ class _MenuItensState extends State<MenuItens> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 12),
+      margin: const EdgeInsets.symmetric(vertical: 18),
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Wrap(

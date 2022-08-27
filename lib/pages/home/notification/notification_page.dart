@@ -24,7 +24,7 @@ class _NotificationsPageState extends State<NotificationsPage> {
   _income() {
     return Container(
       width: MediaQuery.of(context).size.width * .7,
-      margin: const EdgeInsets.only(left: 10, top: 10, right: 20),
+      margin: const EdgeInsets.only(left: 10, top: 18, right: 20, bottom: 15),
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
         color: greyColor,
